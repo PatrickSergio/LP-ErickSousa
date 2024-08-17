@@ -1,0 +1,69 @@
+.comboDetailsSection {
+    background-color: #CAB5FD;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.comboText h3 {
+    background-color: #A04DFF;
+    color: #FFFFFF;
+    padding: 15px 25px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.comboList {
+    list-style-type: disc;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto 20px;
+    padding-left: 20px;
+}
+
+.comboList li {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.comboList li strong {
+    font-weight: bold;
+}
+
+.comboList li span {
+    color: #A04DFF;
+    text-decoration: underline;
+}
+
+.bonusText h3 {
+    font-size: 1.5rem;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.buttonContainer {
+    margin-top: 20px;
+}
+
+.buyButton {
+    background-color: #6C63FF;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buyButton:hover {
+    background-color: #574BFF;
+    background-color: #352eb8;
+    transform: translateY(-7px);
+    box-shadow: #352eb8 0px 7px 29px 0px;
+    color: chartreuse;
+}

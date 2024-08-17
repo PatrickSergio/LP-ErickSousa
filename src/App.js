@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import HeroSection from './components/HeroSection';
+import StorySection from './components/StorySection';
+import EbookSection from './components/EbookSection';
+import EbookFeaturesSection from './components/EbookFeaturesSection';
+import BonusSection from './components/BonusSection';
+import ComboSection from './components/ComboSection';
+import ComboDetailsSection from './components/ComboDetailsSection';
+import TestimonialsSection from './components/TestimonialsSection';
+import GuaranteeSection from './components/GuaranteeSection';
+import LimitedOfferSection from './components/LimitedOfferSection';
+import FAQSection from './components/FAQSection';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HeroSection />
+      <StorySection />
+      <EbookSection />
+      <EbookFeaturesSection />
+      <BonusSection />
+      <ComboSection />
+      <ComboDetailsSection />
+      <TestimonialsSection />
+      <GuaranteeSection />
+      <LimitedOfferSection />
+      <FAQSection />
+      <Footer/>
     </div>
   );
 }

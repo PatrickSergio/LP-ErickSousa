@@ -1,0 +1,87 @@
+.ebookSection {
+    background-color: #FFFFFF;
+    /* Cor de fundo principal */
+    padding: 60px 20px;
+    /* Espaçamento interno */
+    position: relative;
+    background: linear-gradient(135deg,
+            #20B2AA 0%, #20B2AA 20%,
+            transparent 20%, transparent 40%,
+            #9370DB 40%, #9370DB 60%,
+            #4682B4 60%, #4682B4 80%,
+            transparent 80%, transparent 100%);
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.textContainer {
+    flex: 1;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.textContainer h1 {
+    font-size: 50px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.textContainer h2 {
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 0;
+    line-height: 1.4;
+    font-weight: bold;
+}
+
+.imageContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.livroImage {
+    max-width: 100%;
+    width: 250px;
+    
+    height: auto;
+    border: 2px solid #000;
+   
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .textContainer {
+        padding-right: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .textContainer h1 {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+
+    .textContainer h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .livroImage {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+}

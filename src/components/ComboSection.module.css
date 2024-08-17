@@ -1,0 +1,48 @@
+.comboSection {
+    background-color: #FFFFFF;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.comboPara,
+.comboNaoPara {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.featuresContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.featureItem {
+    flex: 1;
+    min-width: 220px;
+    margin: 20px;
+    text-align: center;
+}
+
+.icon {
+    max-width: 50px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+}

@@ -1,0 +1,73 @@
+.bonusSection {
+    background-color: #CAB5FD;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.topText h2 {
+    font-size: 2rem;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.topText h2 span {
+    color: #A04DFF;
+}
+
+.topText p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.bonusText h3 {
+    background-color: #A04DFF;
+    color: #000000;
+    padding: 15px;
+    font-size: 1.8rem;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.booksContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.bookItem {
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bookItem h4 {
+    font-size: 1.3rem;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.bookItem p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.bookImage {
+    width: 100%;
+    max-width: 300px;
+    /* Limite de tamanho da imagem */
+    height: auto;
+    border: 2px solid #000;
+    border-radius: 5px;
+    align-self: center;
+    /* Centraliza a imagem dentro do contêiner */
+}
+
+
