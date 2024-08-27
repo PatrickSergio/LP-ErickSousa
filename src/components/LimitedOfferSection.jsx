@@ -7,10 +7,12 @@ import livro3Image from '../images/livro3.svg';
 const LimitedOfferSection = () => {
   const getStoredDeadline = () => {
     const storedDeadline = localStorage.getItem('countdownDeadline');
-    if (storedDeadline) {
+    const now = new Date().getTime();
+
+    if (storedDeadline && parseInt(storedDeadline, 10) > now) {
       return parseInt(storedDeadline, 10);
     } else {
-      const newDeadline = new Date().getTime() + 6 * 60 * 60 * 1000; 
+      const newDeadline = now + 6 * 60 * 60 * 1000; // 6 horas
       localStorage.setItem('countdownDeadline', newDeadline);
       return newDeadline;
     }

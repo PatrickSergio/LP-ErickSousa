@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './EbookSection.module.css';
-import livro1Image from '../images/livro1.svg'; // Ajuste o caminho conforme necessário
+import livro1Image from '../images/livro1.svg'; 
 
 const EbookSection = () => {
   return (
